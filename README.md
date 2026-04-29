@@ -7,6 +7,13 @@ An AI-powered, browser-based CCNA exam preparation tool with **288 hand-crafted 
 
 > Built to complement the [CCNA Subnet Reference Tool](../ccna-subnet-tool) — use both together for complete CCNA preparation.
 
+interface Gi0/0 → ip address x.x.x.x m.m.m.m → no shutdown
+router ospf 1 → network x.x.x.x [wildcard] area 0
+ip route [net] [mask] [next-hop]
+copy run start / after every config change
+show ip interface brief / to verify all interfaces
+show ip ospf neighbor / to verify adjacencies
+
 ---
 
 ## 📸 Overview
